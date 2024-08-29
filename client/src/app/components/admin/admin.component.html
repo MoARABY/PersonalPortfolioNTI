@@ -1,0 +1,15 @@
+<section class="bg-mainColor">
+    <div class="container custom d-flex justify-content-center  align-items-center ">
+        <div class="login text-center">
+            <h1 class=" mb-5 ">admin login</h1>
+
+
+            <form (submit)="onSubmit()" action="" class="w-75 mx-auto">
+                <input type="text" class=" form-control py-2 mb-4" placeholder="Username">
+                <input [(ngModel)]="password" name="password" type="password" class=" form-control py-2 mb-4"
+                    placeholder="password">
+                <button class="btn btn-primary py-2"> Log in</button>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+.custom {
+    width: 100%;
+    height: 100vh;
+}
+
+.login {
+    background-color: rgb(205, 205, 205);
+    padding: 40px 0;
+    filter: blur(90%);
+    border-radius: 10px;
+    width: 40%;
+}
+.bg-mainColor{
+    background-color:black;
+}
